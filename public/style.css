@@ -5,6 +5,11 @@ body{
 }
 
 img{
-    width: 400px;
-    
+    width: 350px;
+    height: 350px;
+}
+
+.flex-conteiner {
+    display: flex;
+    justify-content: space-around;
 }
