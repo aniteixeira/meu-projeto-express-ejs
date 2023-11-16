@@ -18,13 +18,17 @@ const produtos = [
   {id: 10, nome: "Previne Rastreamentos Indesejados", preco: "400", descricao: "AirTag", imagem: "produto10.jpg"},
 ]
 
+function buscarProdutoPorID(id){
+  const produto = produtos.find(produto => produto.id == id);
+  return produto || null
+}
 
 app.get('/', (req, res) => {
   res.render('index', { message: 'Olá, Mundo!' });
 });
 
 app.get('/produto', (req, res) => {
-  res.render('produto', { message: 'Olá, Word!' });
+  res.render('produto', { produtos });
 });
 
 app.get('/produto1', (req, res) => {
