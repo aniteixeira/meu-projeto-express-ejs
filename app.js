@@ -6,10 +6,10 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 const produtos = [
-  {id: 1, nome: "Previne Rastreamentos Indesejados", preco: "400", descricao: "AirTag", imagem: "produto1.jpg"},
-  {id: 2, nome: "Previne Arranhões", preco: "719", descricao: "Capa de tecido para iPhone 15 Pro", imagem: "produto2.jpg"},
-  {id: 3, nome: "Garante segurança", preco: "719", descricao: "Carteira de tecido para iPhone – Azul-Pacífico", imagem: "produto3.jpg"},
-  {id: 4, nome: "Oferece Recarga Rápida", preco: "219", descricao: "Adaptador de energia USB-C", imagem: "produto4.jpg"},
+  {id: 1, nome: "AirTag", preco: "400", descricao: "Previne Rastreamentos Indesejados", imagem: "produto1.jpg"},
+  {id: 2, nome: "Apple TV HD (32 GB)", preco: "719", descricao: "Previne Arranhões", imagem: "produto2.jpg"},
+  {id: 3, nome: "Apple iPhone 13 (128 GB) - Meia-noite", preco: "719", descricao: "Garante segurança", imagem: "produto3.jpg"},
+  {id: 4, nome: "Apple Watch Series 7 ", preco: "219", descricao: "Oferece Recarga Rápida", imagem: "produto4.jpg"},
   {id: 5, nome: "Mantém a Compatibilidade com o Padrão Qi", preco: "479", descricao: "Carregador MagSafe", imagem: "produto5.jpg"},
   {id: 6, nome: "Proteção ao seu Aparelho", preco: "569", descricao: "Capa de silicone para iPhone 15 ", imagem: "produto6.jpg"},
   {id: 7, nome: "Previne Rastreamentos Indesejados", preco: "400", descricao: "AirTag", imagem: "produto7.jpg"},
